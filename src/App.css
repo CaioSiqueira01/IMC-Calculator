@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background-color: #090e22;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #FFF;
+}
+
+.hide {
+  display: none !important;
+}
+
+@media (max-width: 1024px) {
+  .container {
+      min-width: 70vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+      min-width: 90vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+      min-width: 95vw;
+  }
+
+  #calc-container h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1.5rem;
+  }
+
+  .form-control label {
+      font-size: 0.9rem;
+  }
+
+  .form-control input {
+      font-size: 0.9rem;
+  }
+
+  button {
+      font-size: 0.9rem;
+  }
+
+  #result-container h3 {
+      font-size: 1rem;
+  }
+
+  #imc-table {
+      font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 1440px) {
+  .container {
+      min-width: 50vw;
+  }
+}
+
+@media (max-width: 2560px) {
+  .container {
+      min-width: 30vw;
+  }
+}

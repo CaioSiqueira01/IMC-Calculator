@@ -1,0 +1,24 @@
+#result-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#imc-number {
+    font-size: 2.4rem;
+    margin-bottom: .6rem;
+}
+
+#imc-info {
+    font-size: 1.4rem;
+    color: #CCC;
+}
+
+#result-container h3 {
+    margin-top: 1rem;
+    color: #dfdfdf;
+}
+
+#back-btn {
+    align-self: center;
+}

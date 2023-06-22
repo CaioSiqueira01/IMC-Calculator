@@ -1,0 +1,42 @@
+#imc-table {
+    margin: 1.5rem 0;
+    font-size: .8rem;
+}
+
+.table-header {
+    font-weight: bold;
+    color: #CCC;
+}
+
+.table-header,
+.table-data {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .5rem;
+    padding-bottom: .5rem;
+    border-bottom: 1px solid #444;
+}
+
+.table-header h4,
+.table-data p {
+    flex: 1;
+}
+
+.table-header h4:nth-child(3),
+.table-data p:nth-child(3) {
+    width: 5vw;
+}
+
+.good{
+    color: #12db34;
+}
+
+.low{
+    color: #dbce12;
+}
+.medium{
+    color: #db6212;
+}
+.high{
+    color: #db1912;
+}
